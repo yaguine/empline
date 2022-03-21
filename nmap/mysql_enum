@@ -1,0 +1,24 @@
+3306/tcp open  mysql   syn-ack MySQL 5.5.5-10.1.48-MariaDB-0ubuntu0.18.04.1
+|_mysql-vuln-cve2012-2122: ERROR: Script execution failed (use -d to debug)
+| mysql-enum: 
+|   Valid usernames: 
+|     root:<empty> - Valid credentials
+|     netadmin:<empty> - Valid credentials
+|     guest:<empty> - Valid credentials
+|     web:<empty> - Valid credentials
+|     user:<empty> - Valid credentials
+|     sysadmin:<empty> - Valid credentials
+|     administrator:<empty> - Valid credentials
+|     webadmin:<empty> - Valid credentials
+|     admin:<empty> - Valid credentials
+|     test:<empty> - Valid credentials
+|_  Statistics: Performed 10 guesses in 1 seconds, average tps: 10.0
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.5.5-10.1.48-MariaDB-0ubuntu0.18.04.1
+|   Thread ID: 203
+|   Capabilities flags: 63487
+|   Some Capabilities: Support41Auth, DontAllowDatabaseTableColumn, IgnoreSpaceBeforeParenthesis, LongColumnFlag, ODBCClient, SupportsLoadDataLocal, FoundRows, LongPassword, Speaks41ProtocolOld, ConnectWithDatabase, Speaks41ProtocolNew, InteractiveClient, IgnoreSigpipes, SupportsTransactions, SupportsCompression, SupportsMultipleStatments, SupportsMultipleResults, SupportsAuthPlugins
+|   Status: Autocommit
+|   Salt: K#kr{417adSS&a7-y>hp
+|_  Auth Plugin Name: mysql_native_password

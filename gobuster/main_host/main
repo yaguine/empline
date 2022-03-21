@@ -1,0 +1,3 @@
+/index.html           (Status: 200) [Size: 14058]
+/assets               (Status: 301) [Size: 313] [--> http://10.10.148.71/assets/]
+/javascript           (Status: 301) [Size: 317] [--> http://10.10.148.71/javascript/]

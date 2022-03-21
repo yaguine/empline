@@ -1,0 +1,12 @@
+# Nmap 7.92 scan initiated Wed Mar 16 20:11:34 2022 as: nmap -sN -p- -n --min-rate 5000 -vvv -oN nmap/null 10.10.148.71
+Nmap scan report for 10.10.148.71
+Host is up, received echo-reply ttl 63 (0.052s latency).
+Scanned at 2022-03-16 20:11:34 CET for 15s
+Not shown: 65532 closed tcp ports (reset)
+PORT     STATE         SERVICE REASON
+22/tcp   open|filtered ssh     no-response
+80/tcp   open|filtered http    no-response
+3306/tcp open|filtered mysql   no-response
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Wed Mar 16 20:11:49 2022 -- 1 IP address (1 host up) scanned in 15.03 seconds
