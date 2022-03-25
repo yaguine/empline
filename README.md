@@ -1,4 +1,4 @@
-# Empline WriteUp
+# Empline WriteUp (Tryhackme) by [yag1n3](https://github.com/yaguine)
 
 ### tags
 * linux
